@@ -6,13 +6,13 @@ You can find the most recent version of this guide [here](https://github.com/fac
 ## Swipe Max Assessment
 
 ------------------------------
-###Install dependencies
+### Install dependencies
 
 `yarn `
 or
 `npm install`
 
-###Run 
+### Run 
 
 `yarn start`
 or
