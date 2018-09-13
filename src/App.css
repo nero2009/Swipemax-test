@@ -1,0 +1,150 @@
+.App {
+  margin: 0 auto;
+  background-color: pink;
+  width:800px;
+  height: 600px;
+  display: grid;
+  grid-template-columns: 400px 100px 300px;
+}
+
+.item{
+  margin: auto;
+  background-color: #b9f8f6;
+  height: 300px;
+  width: 500px;
+  border-radius: 10px;
+  
+}
+
+.item-payment{
+  margin: auto;
+  background-color: whitesmoke;
+  height: 200px;
+  width: 300px;
+  padding:30px;
+  border-radius: 4px;
+  grid-column: 2/3;
+}
+
+.price{
+  font-size: 20px;
+  color: whitesmoke;
+  font-weight: 300;
+}
+
+.description{
+  font-size: 15px;
+  color: whitesmoke;
+  font-weight: 300;
+}
+
+.item-details{
+  margin-left: 30px;
+  margin-bottom: auto;
+  margin-top: auto;
+}
+
+.payment-details{
+  color: grey;
+  font-weight: 300;
+}
+
+.card{
+  color:pink;
+  font-size: 9px;
+  margin: 5px;
+  padding: 0px;
+}
+
+.card_number{
+  font-size: 15px;
+  margin: 0px;
+  padding: 0px;
+}
+
+.card_name{
+  font-size: 10px;
+  margin: 0px;
+  margin: 0px;
+}
+
+.card-expiration{
+  
+}
+
+.card-month{
+  margin: 0px;
+  font-size: 10px
+}
+
+.card-year{
+  margin: 0px;
+  float:right;
+  width:50%;
+  font-size: 10px;
+}
+.close-modal{
+  text-decoration: none;
+  font-size: 40px;
+  color: whitesmoke;
+}
+input, select{
+  border: none;
+  background: white;
+}
+
+input, label{
+  display: block;
+}
+
+label{
+  color:pink;
+  font-size: 12px;
+}
+
+input[type=number]::-webkit-outer-spin-button,
+input[type=number]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type=number] {
+    -moz-appearance:textfield;
+}
+
+select{
+  appearance: none;
+}
+
+.select-wrapper-month, .select-wrapper-year{
+  position: relative;
+}
+
+.select-wrapper-month:after{
+  font-family: FontAwesome;
+  content: '\f107';
+  font-size: 14px;
+  position: absolute;
+  bottom:0px;
+  left: 52px;
+  color: grey;
+  pointer-events: none;
+}
+
+.select-wrapper-year:after{
+  font-family: FontAwesome;
+  content: '\f107';
+  font-size: 14px;
+  position: absolute;
+  bottom:0px;
+  left: 32px;
+  color: grey;
+  pointer-events: none;
+  
+}
+
+.dropdown{
+  display: grid;
+  grid-template-columns: 60px 40px ;
+  grid-gap: 20px
+}
